@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abongile Nyakatya's Shine</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
         body {
             background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -43,7 +44,7 @@
         }
 
         video:hover {
-            transform: scale(1.15);
+            transform: scale(1.05);
         }
 
         p {
@@ -62,14 +63,25 @@
         }
     </style>
 </head>
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-    <div class="text-center bg-white p-8 rounded-lg shadow-lg max-w-2xl">
+<body class="bg-gray-100 flex flex-col items-center justify-center min-h-screen">
+    <div class="text-center bg-white p-8 rounded-lg shadow-lg max-w-2xl mb-8">
         <h1 class="text-4xl font-bold mb-4 text-purple-700">Abongile Nyakatya's Shine</h1>
         <video class="w-full mb-4 rounded-lg shadow-md" controls>
             <source src="./7092235-hd_1920_1080_30fps.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <p class="text-lg text-gray-700">Thank you for taking the time to watch my video! I’m excited about the opportunity with TFG and can’t wait to contribute to the team.</p>
+    </div>
+    <div class="flex space-x-4">
+        <a href="https://github.com/Abongile21" target="_blank" class="text-white bg-gray-800 hover:bg-gray-900 rounded-full p-3 shadow-lg transition-transform transform hover:scale-105">
+            <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/" target="_blank" class="text-white bg-blue-700 hover:bg-blue-800 rounded-full p-3 shadow-lg transition-transform transform hover:scale-105">
+            <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://abongiledev.netlify.app/" target="_blank" class="text-white bg-green-500 hover:bg-green-600 rounded-full p-3 shadow-lg transition-transform transform hover:scale-105">
+            <i class="fas fa-globe fa-lg"></i>
+        </a>
     </div>
 </body>
 </html>
